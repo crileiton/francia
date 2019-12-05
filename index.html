@@ -1,0 +1,326 @@
+<!-- 
+    Fecha: 06 - Diciembre - 2019
+    Proyecto: Concierto Fin de Año
+    Desarrollador: Ing. Cristian Leiton Valencia
+    Módulo: Desarrollo Web II
+    Pasto - Nariño
+-->
+<!doctype html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="assets/images/icono.png" />
+
+    <title>Concierto Fin de año</title>
+</head>
+
+<body data-spy="scroll" data-target="#navbar" data-offset="57">
+    <!-- Header -->
+    <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/images/logo2.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#main">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#speakers">Artistas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#place-time">Lugar y Fecha</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#conviertete-en-ganador">Concurso</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-compra" href="#" data-target="#modalCompra" data-toggle="modal">Comprar ticket</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- /Header -->
+
+    <!-- Hero -->
+    <main id="main">
+        <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/images/paris1.jpg" class="d-block w-100" alt="Portada 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/paris2.jpg" class="d-block w-100" alt="Portada 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/paris3.jpg" class="d-block w-100" alt="Portada 3">
+                </div>
+                <div class="overlay">
+                    <div class="container d-flex h-100 align-items-center justify-content-center">
+                        <div class="row">
+                            <div class="col-md-6 offset-md-3 text-center text-md-center">
+                                <h1>CONCIERTO FIN DE AÑO</h1>
+                                <p class="d-none d-md-block">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolore impedit ex voluptatum ullam eveniet non, fugiat iste maxime vero animi culpa voluptas rerum dolor illo aspernatur reprehenderit voluptatem laborum.
+                                </p>
+                                <a href="#conviertete-en-ganador" class="btn btn-outline-light">Concurso</a>
+                                <button type="button" class="btn btn-concierto" data-target="#modalCompra"
+                                    data-toggle="modal"> Comprar tickets</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- /Hero -->
+
+    <!-- Artistas -->
+    <section id="speakers" class="mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center text-uppercase">
+                    <small>Conoce a los</small>
+                    <h2>Artistas</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="assets/speakers/artista1.jpg" class="card-img-top" alt="Foto de James Hetfield">
+                        <div class="card-body">
+                            <div class="badges text-right pb-1">
+                                <span class="badge badge-warning">Metal</span>
+                                <span class="badge badge-danger">Rock</span>
+                            </div>
+                            <h5 class="card-title">James Hetfield</h5>
+                            <p class="card-text">Phasellus sapien felis, semper nec nisi in, bibendum congue mauris.
+                                Curabitur ac metus at nisl tempus rutrum. Vestibulum posuere in tortor in sodales. Nunc
+                                pulvinar nulla vestibulum nulla sollicitudin congue. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="assets/speakers/artista2.jpg" class="card-img-top" alt="Foto de Marilyn Manson">
+                        <div class="card-body">
+                            <div class="badges text-right pb-1">
+                                <span class="badge badge-warning"
+                                    style="background: rgb(255, 94, 0); color: white;">Hard</span>
+                                <span class="badge badge-info">Metal</span>
+                            </div>
+                            <h5 class="card-title">Marilyn Manson</h5>
+                            <p class="card-text">Phasellus sapien felis, semper nec nisi in, bibendum congue mauris.
+                                Curabitur ac metus at nisl tempus rutrum. Vestibulum posuere in tortor in sodales. Nunc
+                                pulvinar nulla vestibulum nulla sollicitudin congue. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="assets/speakers/artista3.jpg" class="card-img-top" alt="Foto de Alice Cooper">
+                        <div class="card-body">
+                            <div class="badges text-right pb-1">
+                                <span class="badge badge-dark">Rock</span>
+                                <span class="badge badge-info" style="background: #82AD36;">Metal</span>
+                            </div>
+                            <h5 class="card-title">Alice Cooper</h5>
+                            <p class="card-text">Phasellus sapien felis, semper nec nisi in, bibendum congue mauris.
+                                Curabitur ac metus at nisl tempus rutrum. Vestibulum posuere in tortor in sodales. Nunc
+                                pulvinar nulla vestibulum nulla sollicitudin congue. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="assets/speakers/artista4.jpg" class="card-img-top" alt="Foto de Dee Snider">
+                        <div class="card-body">
+                            <div class="badges text-right pb-1">
+                                <span class="badge badge-warning"
+                                    style="background: #563D7C; color: white;">Rock</span>
+                                <span class="badge badge-info">Metal</span>
+                            </div>
+                            <h5 class="card-title">Dee Snider</h5>
+                            <p class="card-text">Phasellus sapien felis, semper nec nisi in, bibendum congue mauris.
+                                Curabitur ac metus at nisl tempus rutrum. Vestibulum posuere in tortor in sodales. Nunc
+                                pulvinar nulla vestibulum nulla sollicitudin congue. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Artistas -->
+
+    <!-- Lugar y fecha -->
+
+    <section id="place-time">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-lg-6 pl-0 pr-0">
+                    <img src="assets/images/parislugar.jpg" alt="París">
+                </div>
+                <div class="col-12 col-lg-6 pt-4 pb-4">
+                    <h2>París - Diciembre 2019</h2>
+                    <p>
+                        París, la capital de Francia, es una importante ciudad europea y un centro mundial del arte, la moda, la gastronomía y la cultura. Su paisaje urbano del siglo XIX está entrecruzado por amplios bulevares y el río Sena. Aparte de estos hitos, como la Torre Eiffel y la catedral gótica de Notre Dame del siglo XII, la ciudad es famosa por su cultura del café y las tiendas de moda de diseñador a lo largo de la calle Rue du Faubourg Saint-Honoré.
+                    </p>
+                    <div class="text-center">
+                        <a href="https://es.wikipedia.org/wiki/Par%C3%ADs" target="_blank"
+                            class="btn btn-outline-light">Conoce más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- /Lugar y fecha -->
+
+    <!-- Conviértete en ganador -->
+
+    <section id="conviertete-en-ganador" class="pt-4 pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <small class="text-uppercase">Participar en el concurso de un</small>
+                    <h2>Ticket</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    Registraté para participar en un  <abbr data-toggle="tooltip"
+                        title="Boleto de entrada al concierto">ticket</abbr>.
+                    Cuéntanos por qué participas!
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-10 offset-1 col-lg-8 offset-lg-2 pt-2">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-12 col-md-6">
+                                <input type="text" class="form-control" placeholder="Nombres">
+                            </div>
+                            <div class="form-group col-12 col-md-6">
+                                <input type="text" class="form-control" placeholder="Apellidos">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col">
+                                <textarea name="text" class="form-control form-control-lg"
+                                    placeholder="¿Por qué quieres ganar?"></textarea>
+                                <small class="form-text text-muted">Recuerda incluir el motivo de partipación.</small>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col">
+                                <button type="button" class="btn btn-concierto btn-block">Enviar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- /Conviértete en ganador -->
+
+
+    <!-- Footer -->
+    <footer id="footer" class="pt-4 pb-4">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12 col-lg">
+                    <a href="#">Preguntas frecuentes</a>
+                </div>
+                <div class="col-12 col-lg">
+                    <a href="#">Contáctanos</a>
+                </div>
+                <div class="col-12 col-lg">
+                    <a href="#">Prensa</a>
+                </div>
+                <div class="col-12 col-lg">
+                    <a href="#">Eventos</a>
+                </div>
+                <div class="col-12 col-lg">
+                    <a href="#">Términos y Condiciones</a>
+                </div>
+                <div class="col-12 col-lg">
+                    <a href="#">Privacidad</a>
+                </div>
+                <div class="col-12 col-lg">
+                    <a href="#">Artistas</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- /Footer -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="modalCompra" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Compra de tickets</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col">
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="basic-addon1">@</span>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="Correo Electrónico"
+                                        aria-label="Username" aria-describedby="basic-addon1">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="alert alert-warning" role="alert">
+                        Recibiras un correo de confirmación de compra.
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-concierto">Comprar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Modal -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="js/tooltip.js"></script>
+</body>
+
+</html>

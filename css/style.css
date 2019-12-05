@@ -1,0 +1,82 @@
+
+/* Estilos para el boton de portada */
+.btn-concierto{
+    background-color: #97C93E;
+    color: white;
+}
+
+/* Estilos para el boton de portada cuando pase el puntero */
+.btn-concierto:hover{
+    background-color: #82AD36;
+    color: white;
+}
+
+/* Estilos del carrusel - tamaño relativo */
+#carousel{
+    position: relative;
+}
+
+/* Estilos para el carrusel */
+#carousel .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(0, 0, 0, 0.5);
+    color: white;
+    z-index: 1;
+}
+
+/* Tamaño completo para el carrusel */
+#carousel .overlay .container,
+#carousel .overlay .container{
+    height: 100%;
+}
+
+/* Estilos para el footer */
+#footer{
+    background: linear-gradient(90deg, #1C3643, #273B47, 25%, #1E5372);
+}
+
+/* Estilos de color de letra footer */
+#footer a{
+    color: rgba(235, 230, 230, 0.753);
+}
+
+/* Estilos para el header */
+#header img{
+    width: 80px;
+}
+
+/* Escala de grises para el carrusel */
+#main .carousel-inner img{
+    /* vh quiere decir el alto de la pantalla, cualquier */
+    max-height: 70vh;
+    /* Para que no se estire la imagen */
+    object-fit: cover;
+    /* Decolorar imagenes */
+    filter: grayscale(70%);
+}
+
+/* Tamaño para lugar y fecha */
+#place-time img{
+    max-width: 100%;
+}
+
+/* Estilos para lugar y fecha */
+#place-time{
+    background-color: #343A40;
+    color: white;
+}
+
+/* Estilos para los artistas */
+#speakers .container .row img{
+    height: 300px;
+    
+}
+
+/* Estilos para comprar ticket - menú */
+.text-compra{
+    color: #97C93E !important;
+}
